@@ -1,0 +1,30 @@
+{
+  "name": "react-immer-hooks",
+  "version": "0.1.0",
+  "description": "Easy immutability in React Hooks.",
+  "main": "dist/react-immer-hooks.js",
+  "module": "dist/react-immer-hooks.mjs",
+  "browser": "dist/react-immer-hooks.min.js",
+  "source": "src/index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sin/react-immer-hooks.git"
+  },
+  "author": "Mateusz Sienkan <sin.mateusz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "7",
+    "@babel/preset-env": "^7.0.0",
+    "rollup": "^0.65.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  },
+  "peerDependencies": {
+    "react": "16.7.0-alpha.0",
+    "immer": "^1.7.3"
+  }
+}
